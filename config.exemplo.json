@@ -1,0 +1,11 @@
+{
+  "base_url": "https://exemplo.com",
+  "rotas_protegidas": ["/dashboard", "/admin", "/conta"],
+  "api_protegidas": ["/api/me", "/api/usuarios"],
+  "api_publicas": ["/api/health"],
+  "paginas_publicas": ["/", "/login"],
+  "rotas_com_id": ["/dashboard/itens/{id}"],
+  "rotas_lista": ["/dashboard/itens"],
+  "rota_login": "/login",
+  "marcadores_erro": ["Algo deu errado", "Application error", "Internal Server Error"]
+}

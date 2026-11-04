@@ -1,6 +1,9 @@
 # Notas locais (podem citar projeto, URLs e caminhos)
 NOTAS-LOCAIS.md
 
+# Configuração do alvo (URLs e rotas reais); use config.exemplo.json como modelo
+config.json
+
 # Saídas das medições, prints e relatórios
 saida*.json
 *.png
