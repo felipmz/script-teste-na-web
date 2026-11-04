@@ -1,0 +1,25 @@
+# Notas locais (podem citar projeto, URLs e caminhos)
+NOTAS-LOCAIS.md
+
+# Saídas das medições, prints e relatórios
+saida*.json
+*.png
+*.jpg
+*.pdf
+
+# Estado de login e perfis do navegador (contêm sessão)
+.playwright-cli/
+.playwright/
+*.state.json
+state*.json
+
+# Dependências e navegadores
+node_modules/
+browsers/
+
+# Segredos
+.env
+.env.*
+
+# Configuração local do Claude Code
+.claude/
